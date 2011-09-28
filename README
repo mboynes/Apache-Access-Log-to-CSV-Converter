@@ -15,6 +15,17 @@ Note that this was developed for my logs, so if yours are in a different format
 you'll have to tweak the regular expressions. Hey, at least it's a start for you :)
 
 
+ ================
+ = INSTRUCTIONS =
+ ================
+
+Use it via command line as...
+path/to/script.php relative/path/to/input_file relative/path/to/output_file.csv
+
+e.g.:
+/bin/apache_log_to_csv_converter.php access_log access_log.csv
+
+
  ===========
  = License =
  ===========
